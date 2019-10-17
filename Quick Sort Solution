@@ -1,0 +1,29 @@
+def quicksort(data):
+    quicksorthelper(data,0,len(alist)-1)
+    #因index由0開始，所以最後一個數值的index為數量-1
+    def quicksorthelper(data,first,last):
+    if first<last:
+        split = partition(data,first,last)
+        quicksorthelper(data,first,split-1)
+        quicksorthelper(data,split+1,last)
+        def partition(data,first,last):
+    pivot=data[first]
+    left=first+1
+    right=last
+    
+    while True:
+        while left<=right and data[left]<=pivot:
+            left+=1
+        while left<=right and data[right]>=pivot:
+            right-=1
+        if left>right:
+            break
+        else:
+            data[left],data[right]=data[right],data[left]
+    data[right],data[first]=data[first],data[right]
+    
+    return right
+    
+    alist=[54,26,93,17,77,31,44,55,20,17]
+    quicksort(alist)
+    print(alist)
