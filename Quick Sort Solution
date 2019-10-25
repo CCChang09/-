@@ -7,14 +7,14 @@ def quicksort(data):
         quicksorthelper(data,first,split-1)
         quicksorthelper(data,split+1,last)
         def partition(data,first,last):
-    pivot=data[first]
+    P=data[first]
     left=first+1
     right=last
     
     while True:
-        while left<=right and data[left]<=pivot:
+        while left<=right and data[left]<=P:
             left+=1
-        while left<=right and data[right]>=pivot:
+        while left<=right and data[right]>=P:
             right-=1
         if left>right:
             break
