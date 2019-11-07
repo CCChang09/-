@@ -1,5 +1,24 @@
-#Heap Sort Explaination
-##流程圖
-###
-##學習歷程
-###
+# Heap Sort Explaination
+## 流程圖
+### ![image](https://github.com/CCChang09/-/blob/master/IMG_20191108_041501.jpg)
+## 學習歷程
+### 在開始之前，我必須先說我的程式語言能力尚且不夠將我的想法轉化成能夠實際運行的程式。這點是我之後將要，也必須奮力改進的。如果看了辣眼睛，我很抱歉...。
+
+### heap_sort是將數列轉化成樹狀後分割排序的方法，而要將數列轉換成樹狀，就必須經過heapify這個步驟
+### def heapify(self,seq,x):
+###     n = len(seq)
+###     layer = int(n/2)
+### 我們設定n為數列的總長，而整個heap的層數會是n/2的無條件進位整數(這是我請教05116127林庭嘉同學所討論出來的)
+### 以我畫的流程圖為例，數列中有六個數，而heap的層數(layer)就會是三層
+
+### 接著，一個隨機父節點x中，他的左子節點L，右子節點R在數列中的排序位置分別會是2X+1和2X+2
+### 解決完節點的位置定義問題後，開始比大小
+### 我是設想了三種情況 1.L較x大 2.R較x大 3.x較大
+
+### 最後是定義heap_sort的部分，我承認這一段的程式碼是完全照搬的。因為我自己試過的幾種寫法完全行不通。我不知道問題是不是出在我範圍定義有誤，每次都是在
+### 調換的前幾行就出error，可是時間不夠我修改出一個可行的版本(大概是我太爛)，希望之後能生出一個自己的版本來補交。
+
+## 參考資料 
+### https://github.com/a303990366/Leet-Code/blob/9c5b03e704e8f1dc440a69640d1817e14da79853/HW2/heap_sort_05116127.py
+### https://www.geeksforgeeks.org/python-program-for-heap-sort/
+### https://docs.python.org/zh-tw/3/library/heapq.html
