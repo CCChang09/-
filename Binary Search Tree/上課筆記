@@ -5,3 +5,9 @@ binary tree 轉binary search tree
       
 刪除功能: ex. 先碰到的先刪
          往下找到leaf去抽換(因為如果抽節點要修改結構會很麻煩)
+         
+binary tree 和 binary search tree的差別
+binary tree 的定義:        當一個root有子節點(leaf)(最小一個 最大兩個)時便是一個tree
+binary search tree 的定義: 較root小的leaf擺左邊 較root大的擺右邊 有此分類動作的tree便符合定義
+
+*binary search tree 是binary tree 的一種，但binary tree 不一定是binary search tree*
