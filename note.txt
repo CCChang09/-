@@ -1,0 +1,7 @@
+binary tree 轉binary search tree
+兩個以上子節點
+差別: binary tree 沒有比較大小 直接按照index擺放
+      binary search tree 有比較大小再擺放(例如左邊的branch較root小，右邊較大)
+      
+刪除功能: ex. 先碰到的先刪
+         往下找到leaf去抽換(因為如果抽節點要修改結構會很麻煩)
