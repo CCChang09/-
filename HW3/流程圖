@@ -1,2 +1,3 @@
 https://github.com/CCChang09/-/blob/master/Binary%20Search%20Tree/IMG_20191122_223220.jpg
 https://github.com/CCChang09/-/blob/master/Binary%20Search%20Tree/IMG_20191122_223720.jpg
+我的delete部分 除了root同時有左右子節點的狀況外，我都寫出來了。但是我不知道該如何將子節點以下仍然有更多子節點的狀況用程式語言寫烏來
