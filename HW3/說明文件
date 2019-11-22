@@ -1,3 +1,13 @@
-# BST
-## 功能: 新增 刪除 查詢 調整
-## 新增: 在BST中新放入數字節點，依靠判斷與Root的值之大小來放置新節點的位置。小於or等於Root值的放左，大於的放右。
+BST
+功能: 新增 刪除 查詢 調整
+新增: 在BST中新放入數字節點，依靠判斷與Root的值之大小來找尋放置新節點的位置。小於or等於Root值的放左，大於的放右。
+
+查詢: 依靠判斷輸入值的大小，在樹中找出符合需求的值。如果沒有任何節點值符合，即回傳False
+
+刪除: 刪除某節點前，先找出該節點之父節點與子節點，判斷刪除該節點後如何使整棵樹之結構不受影響，並以影響最小為前提去操作。
+
+調整:
+
+參考來源: https://github.com/a303990366/Leet-Code/tree/master/HW3
+         https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be
+         https://www.laurentluce.com/posts/binary-search-tree-library-in-python/
