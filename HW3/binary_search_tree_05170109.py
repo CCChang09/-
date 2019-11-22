@@ -94,6 +94,8 @@ class Solution(object):
 
 # In[ ]:
 
-
+#參考來源: https://github.com/a303990366/Leet-Code/blob/master/HW3/binary_search_tree_05116127.py
+#          https://www.youtube.com/watch?v=YlgPi75hIBc&feature=youtu.be
+#          https://www.laurentluce.com/posts/binary-search-tree-library-in-python/
 
 
